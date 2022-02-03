@@ -1,0 +1,158 @@
+* {
+	font-family:'Roboto', sans-serif;;
+	
+}
+.container {
+	background: rgba(16, 0, 232, 0.4);
+}
+
+#conteudo {
+	float: left;
+	margin-bottom: 20px;	
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+
+.endereco{
+	font-size: 10px;
+	color: white;
+}
+
+
+h3 {
+	color: white;
+}
+
+nav {
+	border: 1px solid white;
+	border-radius: 30px;
+}
+
+nav ul li a:link {
+	margin-right: 10px;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: rgba(16, 0, 232, 0.4);
+}
+.topo {
+	color: white;
+	margin-top: 10px;
+
+}
+
+a {
+	color: #fff;
+	text-decoration: none;	
+}
+
+
+.icones {
+	color: white;
+	margin-bottom: 30px;
+}
+
+/*CONTEUDOS*/
+
+#home {
+	background: #343131;
+	color: white;
+	margin-top: 10px;
+}
+
+.texto {
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 30px;
+}	
+
+ .btn {
+ 	border-radius: 20px;
+ }
+
+.caixa {
+	margin-top: 2px;
+	border-radius: 10px;	
+	background: rgba(255, 99, 71, 0.2);
+}
+
+.conteudo-1 {
+	font-size: 15px;
+	background:white;
+}
+
+.conteudo-1 p{
+	color: black;
+	font-size: 12px;
+	margin: 10px;
+}
+
+.conteudo-1 h3{
+	color: black;
+}
+
+.conteudo-1{
+	color: black;
+}
+
+/*FOOTER*/
+
+footer{
+	background: rgba(255, 99, 71, 0.2);
+	padding: 10px 0 10px 0;
+}
+
+footer h4 {
+	color: black;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9fb0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
+
+/*MEDIA QUERIES*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+		
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
